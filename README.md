@@ -2,9 +2,9 @@
 Final project for Data Structures.
 
 
-Possible things to do.
+Some ideas of things we could do.
 Create a User class.
-Create a graph of city connections. Eg London connects to Frankfurt, Paris, and Miami. Miami connects to New York, London and Buenos Aires. New York connects to Frankfurt, Miami and Ontario.
+Create a graph of city connections. Eg London connects to Frankfurt, Paris, and Miami. Miami connects to New York, London and Buenos Aires. 
 Create a CityNode Class.
 
 
