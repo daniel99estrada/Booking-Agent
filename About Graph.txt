@@ -1,0 +1,3 @@
+The graph file is intended to allow the creation of a generic graph object with basic functionality.
+One is able to add or remove connections through the provided methods, as well as read existing connections.
+The existingConnections method is a troubleshooting method to check for extra or missing connections.
