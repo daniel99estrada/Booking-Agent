@@ -1,0 +1,7 @@
+This file allows the creation of a BoardingPass object that can store the name and pass number of a user.
+The methods allow the values of the object to be returned and changed to given value.
+Potential improvement: Set the contructor to create a random pass number that is unique among all the BoardingPass objects.
+Potential implementation: Have the contructor accept an array of all BoardingPass objects. A random number generator will create a pass number
+and check each BoardingPass object for a match. If there is a match, the number will be generated again. If not, the loop ends.
+Note for implementation: The array of BoardingPass objects must be initialized and exist in the main method to persist between calls. The main
+method's array should also be updated to include the new object each time a new BoardingPass object is created.
