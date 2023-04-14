@@ -12,4 +12,10 @@ public class Edge {
     public float getCost() {
         return cost;
     }
+    public City getCity1() {
+        return city1;
+    }
+    public City getCity2() {
+        return city2;
+    }
 }
