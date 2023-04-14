@@ -9,6 +9,23 @@ public class BoardingPass {
         this.passNumber = passNumber;
     }
 
+    public BoardingPass(String name, BoardingPass[] arr) {
+        this.name = name;
+        boolean uniqueNum = false;
+        int tempNum = (int) (Math.random() * 999999) + 100000;
+        while(!uniqueNum) {
+            uniqueNum = true;
+            for(int i = 0; i < arr.length; i++) {
+                if(arr[i].passNumber == tempNum) {
+                    uniqueNum = false;
+                    tempNum = (int) (Math.random() * 999999) + 100000;
+                    break;
+                }
+            }
+        }
+        this.passNumber = tempNum;
+    }
+
     //Returns the name of the pass holder
     public String getName() {
         return this.name;
