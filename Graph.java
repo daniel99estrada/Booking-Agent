@@ -1,8 +1,11 @@
-import java.utils.List;
-import java.utils.ArrayList;
-import java.utils.List;
+import java.util.*;
 
 public class Graph {
-    public List<Edge> flights;
+    public Map<String, Map<String, Integer>> FlightsGraph;
+
+    public Graph()
+    {
+        this.FlightsGraph = new HashMap<>();
+    }
 
 }
