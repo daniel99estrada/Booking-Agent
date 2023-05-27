@@ -1,6 +1,6 @@
 # Flight Booking Program
 
-This Java program, `BookingAgent`, is a flight booking application that allows users to find the shortest route between different cities. It uses the Dijkstra's algorithm to calculate the shortest path.
+This Java program, `BookingAgent`, was made for FIU's Data Structures final project. It is a flight booking application that allows users to find the shortest route between different cities. It uses the Dijkstra's algorithm to calculate the shortest path.
 
 ## Installation
 
@@ -72,10 +72,6 @@ Please select a city of origin: Miami, New York, Dallas, Atlanta, Los Angeles, o
 
 Thank you for using the Flight Booking program!
 ```
-
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
 
 ## License
 
